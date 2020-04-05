@@ -1,0 +1,170 @@
+# hexo-theme-indigo
+# https://github.com/SatoMasuda/hexo-theme-indigo
+
+# 下記のルールで新しいメニュー項目を追加
+# menu:
+#  link:               fontawesomeの接頭辞「icon-」を省略した名前。この場合は「icon-link」が使用される。
+#    text: About       メニューに表示されるテキスト。省略した場合、デフォルトはアイコンと同じ。最初の文字は大文字になる。
+#    url: /about       絶対パスまたは相対パス、必須。
+#    target: _blank    ポップアップするかどうか、省略した場合は現在のページで開く
+menu:
+  home:
+    text: Home
+    url: /
+  archives:
+    url: /archives
+ #tags:
+ #  url: /tags
+ #th-list:
+ #  text: Categories
+ #  url: /categories
+  github:
+    url: https://github.com/takusan23
+    target: _blank
+  link:
+    text: Mastodon
+    url: https://best-friends.chat/@takusan_23
+
+# アバターのURL
+avatar: /img/avatar.gif
+# avatar link
+avatar_link: /
+# アバターの背景
+brand: /img/brand.jpg
+# favicon
+favicon: /img/favicon.ico
+
+# email
+email: takusan_0913@yahoo.co.jp
+
+# 色の設定 （例はAndroid L Chrome のステータスバーの色）
+color: '#3F51B5'
+
+# ページタイトル
+tags_title: Tags
+archives_title: Archives
+categories_title: Categories
+
+# 記事の要約
+excerpt_render: false
+excerpt_length: 200
+excerpt_link: 全文を読む...
+# 要約中のMathjax有効化
+excerpt_mathjax: false
+# 記事中のMathjax有効化
+mathjax: true
+archive_yearly: true
+
+# 記事の最終更新時刻を表示するかどうか
+show_last_updated: true
+
+# 共有を開くかどうか
+share: true
+
+# 報酬を開くか、報酬を閉じるか。(:false)
+reward: flase
+
+# 検索機能を有効化するか
+search: true
+
+# メニューナビゲーションを表示するか
+hideMenu: true
+
+# 目次(toc)を表示するか
+# toc: false
+toc:
+  list_number: true  # ナンバリングするか
+
+# ページ末尾の内容。すべての変数およびhexoの補助関数を呼び出すことができる。hexo.ioを参照。
+postMessage: ' '
+
+  # CNZZ(中国のトラフィック統計サイト)を使用するか、使用する場合はidを入力(cnzz: 123456789)
+cnzz: false
+
+# Baidu分析。(:false|:<your-key>)
+baidu_tongji: false
+
+# Tencent分析。(:false|:<your-id>)
+tajs: false
+
+# google
+google_analytics: false
+google_site_verification: false
+
+# Sogou Webマスター検証 http://zhanzhang.sogou.com/
+sogou_site_verification: false
+
+# less
+less:
+  compress: true
+  paths:
+    - source/css/style.less
+
+# 以下はコメントプラグイン
+# disqus
+disqus_shortname: false
+# 友言(中国のコメントプラグイン)を使用するか(id|false)
+uyan_uid: false
+# gitmentを使用するか https://github.com/imsun/gitment
+gitment: false
+# gitment:
+#   owner:
+#   repo:
+#   client_id:
+#   client_secret:
+
+# use gitalk://github.com/gitalk/gitalk
+gitalk: false
+#  owner: 
+#  repo: 
+#  client_id: 
+#  client_secret: 
+
+# Valine Comment system. https://valine.js.org
+valine:
+  enable: false # valineを使用する場合はtrue
+  appId:  # your leancloud appId
+  appKey:  # your leancloud appKey
+  notify: false # Mail notify
+  verify: false # Verify code
+  avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  placeholder: Just go go # Comment Box placeholder
+  guest_info: nick,mail,link # Comment header info
+  pageSize: 10 # comment list page size
+
+# Hyper Commentsを有効にするか。(id|false) http://hypercomments.com
+# Hyper Comments support. Write your id here, or false to disable
+hyper_id: false
+
+
+# 正規URL
+# 検索エンジンに、さまざまなドメイン名、さまざまなサブドメイン、さまざまなドメイン内のサイトを期待するパスにリダイレクトさせます。
+# https://support.google.com/webmasters/answer/139066
+# canonical: http://imys.net の場合、検索エンジンwww.imys.netからのアクセスはimys.netにリダイレクトされます
+canonical: false
+
+# 著作権表記の開始年
+since_year: 2020
+
+# 作成者に関する説明、不要な場合は:false
+about: false
+
+# 中国の「不蒜子」によるトラフィック統計 (詳細：http://ibruce.info/2015/04/04/busuanzi/) (visit_counter: false)
+visit_counter:
+  site_uv: 総サイトユーザー：
+  site_pv: 総サイトアクセス：
+
+# 動的なタイトル
+title_change:
+  normal: ''
+  leave: ''
+
+# trueに設定すると、unpkg cdnの最新のテーマスタイルが使用されます
+# カスタムスタイルを有効にする場合は、これをfalseに設定します
+cdn: true
+
+# lightbox(画像ポップアップ)を使用するか https://github.com/lokesh/lightbox2
+lightbox: true
+
+# ICP(中国国内のサーバから発信するすべてのWebサイトに義務付けられている登録制度)  ICP_license: 京ICP备1234556号-1
+ICP_license: false

@@ -1,0 +1,13 @@
+global:
+  search_input_hint: "Zoeken"
+
+post:
+  continue_reading: "Lees verder..."
+  last_updated: "Laatste update: "
+
+footer:
+  license: ' '
+
+tag:
+  all: "Alle"
+  tags: "Labels"

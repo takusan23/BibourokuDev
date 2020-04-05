@@ -1,0 +1,13 @@
+global:
+  search_input_hint: "検索"
+
+post:
+  continue_reading: "続きを読む…"
+  last_updated: "最終更新："
+
+footer:
+  license: ' '
+
+tag:
+  all: "全て"
+  tags: "タグ"
