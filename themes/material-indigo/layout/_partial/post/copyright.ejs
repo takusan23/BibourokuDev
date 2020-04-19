@@ -5,6 +5,7 @@
         <% if(theme.postMessage) {%>
         <%- _.template(theme.postMessage)(locals) %>
         <% } %>
+        <p><span id="text_count"></span></p>
     </div>
     <% } %>
     <footer>
@@ -14,3 +15,17 @@
         </a>
     </footer>
 </blockquote>
+<script>
+    window.onload = () => {
+        const page = document.getElementById('post-content')
+        let mozisuu = 0
+        // pタグを見つけていく
+        const pTag = page.getElementsByTagName('p')
+        for (let index = 0; index < pTag.length; index++) {
+            const element = pTag[index]
+            mozisuu += element.innerText.length
+        }
+        // 文字数表示
+        document.getElementById('text_count').innerText = `文字数（だいたい）：${mozisuu} 文字`
+    }
+</script>

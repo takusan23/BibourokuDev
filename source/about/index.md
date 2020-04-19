@@ -15,12 +15,13 @@ Cookieを無効化することでGoogle Analyticsの収集を拒否すること�
 
 ## テーマは？
 - https://github.com/SatoMasuda/hexo-theme-indigo
-    - いい感じのテーマをありがとうございます！
+    - ありがとうございます！
 - 自分用に書き換えたのは
     - 使わない部分をコメントアウトしたりした。
     - 一部日本語にした。
     - トップページに🍣とか🥳とか流れるようにしてみた。ejsはわからんのでHTMLっぽいところに`<style>`と`<script>`をベタ書きしている。
     - フォントにKoruriを使ってみた。だいしゅき
+    - 最後に文字数を表示させてみたり
 
 ## ソースコードは？
 - https://github.com/takusan23/BibourokuDev
