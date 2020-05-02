@@ -9,7 +9,7 @@ Hexoというやつを使っている。npmでインストールできるので�
 # プライバシーポリシー
 Google Analyticsを置いてます。これは私がこのサイトを見てくれた人が何人いるか等を見たいために置きました。  
 Google Analyticsはデータの収集でCookieを利用しています。  
-データ収集では匿名で行われており、個人がわかるような値は収集していません。  
+データ収集は匿名で行われており、個人がわかるような値は収集していません。  
 Cookieを無効化することでGoogle Analyticsの収集を拒否することができます。  
 詳しくはここへ→ https://policies.google.com/technologies/partner-sites?hl=ja
 

@@ -19,12 +19,13 @@
     window.onload = () => {
         const page = document.getElementById('post-content')
         let mozisuu = 0
-        // pタグを見つけていく
-        const pTag = page.getElementsByTagName('p')
-        for (let index = 0; index < pTag.length; index++) {
-            const element = pTag[index]
-            mozisuu += element.innerText.length
-        }
+        // pタグを探す
+        Array.from(page.getElementsByTagName('p')).forEach(element => {
+            // aタグは外す
+            if (element.getElementsByTagName('a').length == 0) {
+                mozisuu += element.innerText.length
+            }
+        })
         // 文字数表示
         document.getElementById('text_count').innerText = `文字数（だいたい）：${mozisuu} 文字`
     }
