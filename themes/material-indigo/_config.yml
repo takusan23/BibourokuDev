@@ -24,6 +24,7 @@ menu:
   link:
     text: Mastodon
     url: https://best-friends.chat/@takusan_23
+    target: _blank
   gamepad:
     text: お ま け
     url: /omake
